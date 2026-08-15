@@ -11,16 +11,17 @@ venv/
 env/
 .venv/
 
+# JavaScript dependencies and build artifacts
+node_modules/
+dist/
+*.tsbuildinfo
+
 # Training outputs
 results/
 runs/
 checkpoints/
 
-# Model files
-final_model/
-
-# Dataset
-data/
+# Model files are tracked with Git LFS. Do not add them with normal Git.
 
 # Environment variables
 .env

@@ -20,7 +20,6 @@ Briefly turns long conversations, meeting notes, and chat transcripts into short
 | Backend | Python, FastAPI, Uvicorn |
 | AI / NLP | PyTorch, Hugging Face Transformers, T5 |
 | Model format | SafeTensors |
-| Deployment | Vercel (frontend) + Render (API) |
 | Large model storage | Git LFS |
 
 ## 📁 Project Structure

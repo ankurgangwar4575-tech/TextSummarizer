@@ -50,7 +50,7 @@ git lfs install
 git lfs pull
 ```
 
-> 💡 The T5 model is large, so it is stored with Git LFS rather than normal Git.
+> 💡 The T5 model is large, so it is stored with Git LFS rather than normal Git
 
 ### 2. Start the FastAPI backend
 

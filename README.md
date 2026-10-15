@@ -1,6 +1,6 @@
 # ✨ Briefly — AI Dialogue Summarizer
 
-Briefly turns long conversations, meeting notes, and chat transcripts into short, clear summaries. It combines a fine-tuned **T5 Transformer** model with a polished React interface, so users can paste a dialogue and receive the essential context in seconds.
+Briefly turns long conversations, meeting notes, and chat transcripts into short, clear summaries. It combines a fine-tuned **T5 Transformer** model with a polished React interface, so users can paste a dialogue and receive the essential context in seconds
 
 ## 🌟 Features
 
@@ -148,7 +148,7 @@ Add this environment variable with your Render service URL:
 VITE_API_URL=https://YOUR-RENDER-SERVICE.onrender.com
 ```
 
-Redeploy Render after adding the exact Vercel URL to `ALLOWED_ORIGINS`. This enables browser access to the API through CORS. 🌐
+Redeploy Render after adding the exact Vercel URL to `ALLOWED_ORIGINS`. This enables browser access to the API through CORS 🌐
 
 ## 🧪 Build the Frontend
 
@@ -160,9 +160,9 @@ npm run build
 ## 📝 Notes
 
 - The model is loaded when the FastAPI server starts, so the first request after a deployment may take longer.
-- Free hosting tiers can sleep after inactivity; the next request may have a cold-start delay.
-- For public deployments, use a server plan with enough memory for PyTorch and the T5 model.
+- Free hosting tiers can sleep after inactivity; the next request may have a cold-start delay
+- For public deployments, use a server plan with enough memory for PyTorch and the T5 model
 
 ---
 
-Built with 💙 using React, FastAPI, and Hugging Face Transformers.
+Built with 💙 using React, FastAPI, and Hugging Face Transformers
